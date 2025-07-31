@@ -1,0 +1,122 @@
+    1  mkdir -p projects/srs/utils
+    2  cd project/src/utils
+    3  clear
+    4  pkg search neofetch
+    5  pkg install neofetch
+    6  pkg upgrade neofetch
+    7  neofetch
+    8  pkg search cmatrix
+    9  pkg install cmatrix
+   10  pkg upgrade cmatrix
+   11* 
+   12  pkg search git
+   13  pkg install git
+   14  pkg upgrade git
+   15  pkg search gh
+   16  pkg install gh
+   17  git
+   18  gh
+   19  gh auth login
+   20  git clone https://github.com/gbvilla/246986803-VILLA
+   21  cd 246986803-VILLA
+   22  ls
+   23  touch CC221K.txt
+   24  git status
+   25  git add CC221K.txt
+   26  git commit -m "git demo on termux"
+   27  git config --global user.name Glenn
+   28  git config --global user.name gbvilla
+   29  git commit -m "git demo on termux"
+   30  git config --global user.name "gbvilla"
+   31  gut config --global user.email "villaglennboy@gmail.com"
+   32  git config --global user.email "villaglennboy@gmail.com"
+   33  git commit -m "git demo on termux"
+   34  git push
+   35  clear
+   36  history
+   37  history > history.txt
+   38  git commit -m "addedhistory.txt"
+   39  git commit -m "added history.txt"
+   40  git push
+   41  clear
+   42  history
+   43  cmatrix
+   44  neofetch
+   45  cmatrix
+   46  mkdir -p project/src/utils
+   47  cd project/src/utils
+   48  cd .
+   49  cd..
+   50  cd ../..
+   51  mv src source
+   52  rm -r source
+   53  touch file1.txt file2.txt file3.txt
+   54  cp file1.txt copy_of_file1.txt
+   55  mv file2.txt ../file2_moved.txt
+   56  rm file3.txt
+   57  catbfile1.txt
+   58  cat file1.txt
+   59  head file1.txt
+   60  tail file1.txt
+   61  grepb"search_string" file1.txt
+   62  grep "search_string" file1.txt
+   63  less file1.txt
+   64  ls -l file1.txt
+   65  chmod 644 file1.txt
+   66  chmod +x script.sh
+   67  touch script.sh
+   68  chmod +x script.sh
+   69  pkg chown newowner:newgroup file1.txt
+   70  sudo chown newowner:newgrouo file1.txt
+   71  pkg install tsu
+   72  sudo chown newowner:newgroup file1.txt
+   73  ifconfig
+   74  ping www.google.com
+   75  netstat -tuln
+   76  netstat -s
+   77  history
+   78  df -h
+   79  du -sh /path/to/directory
+   80  history
+   81  ps aux
+   82  kill -9 PID
+   83  top
+   84  tar -cvf archive.tar file1.txt file2.txt
+   85  tar -xvf archive.tar
+   86  tar -czvf archive.tar.gz file1.txt file2.txt
+   87  tar -xzvf archive.tar.gz
+   88  sudo apt update
+   89  sudo apt upgrade
+   90  clear
+   91  history
+   92  cd linux_prctice
+   93  mkdir -p linux_practice
+   94  cd linux_practice
+   95  sudo apt update
+   96  pkg update sudo
+   97  sudo apt install neofetch
+   98  pkg install neofetch
+   99  neofetch
+  100  neofetch > system_info.txt
+  101  cat system_info.txt ~/linux_practice
+  102  touch system_infi.txt
+  103  touch system_info.txt
+  104  cat system_info.txt ~/linux_practice
+  105  cat system_info.txt
+  106  cp system_info.txt ~/linux_practice
+  107  cd ~/linux_practice
+  108  ls
+  109  pkg update cmatrix
+  110  pkg install cmatrix
+  111  cmatrix
+  112  nano matrix_note.txt
+  113  cat matrix_notes.txt
+  114  cat matrix_note.txt
+  115  du -h
+  116  ps
+  117  rm ~/system_info.txt
+  118  rm -r ~/linux_practice
+  119  clear
+  120  dkpg -1 | grep neo
+  121  clear
+  122  history > history.txt
